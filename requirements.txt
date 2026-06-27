@@ -1,0 +1,34 @@
+# ============================================================
+# CS730 - Advanced Deep Learning | Spring 2026
+# Project B: Multi-City Climate Prediction System
+# requirements.txt — Python dependencies
+# ============================================================
+
+# Core scientific computing
+numpy==1.26.4
+pandas==2.2.1
+
+# Machine learning & deep learning
+tensorflow==2.15.0
+keras==2.15.0
+scikit-learn==1.4.1
+
+# Visualization
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Jupyter environment
+jupyter==1.0.0
+notebook==7.1.2
+ipykernel==6.29.3
+
+# Utilities
+scipy==1.12.0
+
+# ============================================================
+# Installation:
+#   pip install -r requirements.txt
+#
+# Tested on Python 3.10.x
+# GPU support (optional): install tensorflow[and-cuda] instead
+# ============================================================
