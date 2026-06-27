@@ -12,13 +12,12 @@ This project implements city-specific LSTM (Long Short-Term Memory) models to pr
 ## Repository Structure
 
 ```
-Group_XX_Assignment/
-├── Group_XX_Report.pdf              # Technical report (IEEE format)
-├── Group_XX_Notebook.ipynb          # Main Jupyter Notebook (end-to-end runnable)
+Sindh Multi-City Climate Prediction System/
+├── Report.pdf              # Technical report (IEEE format)
+├── Notebook.ipynb          # Main Jupyter Notebook (end-to-end runnable)
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # This file
-├── checkpoints/
-│   └── project_b_models/            # Saved LSTM model weights per city
+├── models/
 │       ├── Karachi_model.h5
 │       ├── Hyderabad_model.h5
 │       ├── Sukkur_model.h5
@@ -35,7 +34,6 @@ Group_XX_Assignment/
 │       ├── Sanghar_model.h5
 │       └── Khairpur_model.h5
 └── figures/
-    └── project_b_plots/             # All generated visualizations
         ├── missing_value_distribution.png
         ├── correlation_heatmap.png
         ├── validation_karachi.png
@@ -67,7 +65,7 @@ pip install -r requirements.txt
 
 ### 2. Launch Jupyter Notebook
 ```bash
-jupyter notebook Group_XX_Notebook.ipynb
+Jupyter Notebook.ipynb
 ```
 
 ### 3. Run all cells top-to-bottom
